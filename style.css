@@ -73,3 +73,24 @@ li:last-child {
 li:nth-child(odd) {
   color: red;
 }
+
+article p:first-child {
+}
+
+/* Styling Links */
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+a:visited {
+  color: red;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+p:active {
+  font-weight: bold;
+}
